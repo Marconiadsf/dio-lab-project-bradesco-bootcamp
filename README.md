@@ -38,16 +38,14 @@ O projeto cobre as três etapas do lab:
 ## Estrutura
 
 ```
-src/
-└── Lab_Project_DIO_Detecção_de_Anomalias.ipynb
-data/       # vazio — dataset carregado via URL no notebook
-tests/
-utils/
+Lab_Project_DIO_Detecção_de_Anomalias.ipynb   # notebook principal
+models/                                        # modelos exportados com joblib
+data/                                          # vazio — dataset carregado via URL
 ```
 
 ## Como executar
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn shap
-jupyter notebook src/Lab_Project_DIO_Detecção_de_Anomalias.ipynb
+jupyter notebook Lab_Project_DIO_Detecção_de_Anomalias.ipynb
 ```
